@@ -82,9 +82,9 @@ metaDataFormat= "yaml"
     url        = "post/"
 
   [[menu.main]]
-    identifier = "wiki"
-    name       = "Wiki"
-    url        = "none"
+    identifier = "cv"
+    name       = "CV"
+    url        = "https://leslybautista.github.io/CV/"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
