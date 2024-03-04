@@ -34,7 +34,7 @@ metaDataFormat= "yaml"
   enabled = true
   enableKatex = true
   metaKeywords = "fast, hugo, theme, minimal, gruvbox"
-  headerTitle = "Jane Doe"
+  headerTitle = "Lesly Bautista"
   copyright = "© 2021 Jane Doe.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
   name = "jane_doe"
   img = "./img/author.jpeg"
@@ -87,9 +87,9 @@ metaDataFormat= "yaml"
     url        = "post/"
 
   [[menu.main]]
-    identifier = "wiki"
-    name       = "Wiki"
-    url        = "none"
+    identifier = "cv"
+    name       = "CV"
+    url        = "https://leslybautista.github.io/CV/"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
