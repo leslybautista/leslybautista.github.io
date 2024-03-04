@@ -43,7 +43,7 @@
     {{hugo.Generator}}
 
     {{ $style := resources.Get "/sass/main.scss" | toCSS | minify | fingerprint }}
-    {{ $styleURL := printf "/LBautistaB13.github.io%s" $style.RelPermalink }}
+    {{ $styleURL := printf "/.%s" $style.RelPermalink }}
     <link rel="stylesheet" href="{{ $styleURL }}" type="text/css" media="screen">
 
 
