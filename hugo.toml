@@ -35,13 +35,13 @@ metaDataFormat= "yaml"
   enableKatex = true
   metaKeywords = "fast, hugo, theme, minimal, gruvbox"
   headerTitle = "Lesly Bautista"
-  copyright = "© 2021 Jane Doe.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
+  copyright = "© 2023 Lesly Bautista.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
   name = "jane_doe"
   img = "./img/author.jpeg"
   img_title = "Thanks to Christina @ wocintechchat.com for this photo."
   icon = "img/logo.png"
-  quote = "A nice quote that you like that describes the beautiful person you are."
-  description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. Quis risus sed vulputate odio ut. Sed turpis tincidunt id aliquet risus feugiat in ante metus. Bibendum at varius vel pharetra vel turpis. Semper viverra nam libero justo laoreet sit amet cursus. Mauris a diam maecenas sed enim ut sem."
+  quote = "I dream my painting, and then I paint my dream - Van Gogh"
+  description= "My name is Lesly Bautista, and I graduated from Universidad Nacional Mayor de San Marcos with a degree in geographic engineering. I come from Peru, a country with incredible geographical diversity, and I've always been fascinated by maps' ability to reveal the complexities of our world. This passion has led me to collaborate with prestigious organizations such as the Peruvian Space Agency and the United Nations Development Programme on projects in geovisualization, geospatial database management, and spatial analysis in a variety of settings, from urban to rural."
   licenseUrl = ""
 
  # Social icons
@@ -51,7 +51,7 @@ metaDataFormat= "yaml"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:mail@mail.com"
+    url  = "leslyarcelly.213@gmail.com"
 
   [[params.social]]
     name = "gpg"
@@ -63,7 +63,7 @@ metaDataFormat= "yaml"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/leslybautista"
 
   [[params.social]]
     name = "linkedin"
