@@ -77,9 +77,9 @@ metaDataFormat= "yaml"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "post/"
+    identifier = "portafolio"
+    name       = "Portafolio"
+    url        = "portafolio/"
 
   [[menu.main]]
     identifier = "cv"
