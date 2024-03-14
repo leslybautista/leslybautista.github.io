@@ -1,9 +1,6 @@
 name = "Gruvhugo"
 license = "GPL-3.0"
-licenselink = "https://gitlab.com/avron/gruvhugo/-/blob/master/LICENSE"
 description = "A minmal theme based on the Gruvbox color scheme."
-demosite = "https://avron.gitlab.io/gruvhugo/"
-homepage = "https://avron.gitlab.io/gruvhugo/"
 tags = ["landing page", "gruvbox", "blog", "mobile", "light", "minimal", "modern", "customizable", "dark mode"]
 features = ["fast", "dark mode", "Responsive", "Clean", "Simple"]
 min_version = "0.41"
@@ -46,10 +43,6 @@ metaDataFormat= "yaml"
 
  # Social icons
   [[params.social]]
-    name = "gitlab"
-    url  = "https://gitlab.com/avron/gruvhugo"
-
-  [[params.social]]
     name = "email"
     url  = "mailto:leslyarcelly.213@gmail.com"
 
@@ -58,16 +51,12 @@ metaDataFormat= "yaml"
     url  = "https://keys.openpgp.org/"
 
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
     name = "github"
     url  = "https://github.com/leslybautista"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "https://linkedin.com/in/lesly-aracelly-bautista-buendia-49a18b195"
 
 [params.style]
   # add path to custom CSS files here
@@ -77,9 +66,9 @@ metaDataFormat= "yaml"
 
 [menu]
   [[menu.main]]
-    identifier = "portafolio"
-    name       = "Portafolio"
-    url        = "portafolio/"
+    identifier = "portfolio"
+    name       = "Portfolio"
+    url        = "portfolio/"
 
   [[menu.main]]
     identifier = "cv"
