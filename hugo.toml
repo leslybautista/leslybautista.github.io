@@ -68,7 +68,7 @@ metaDataFormat= "yaml"
   [[menu.main]]
     identifier = "portfolio"
     name       = "Portfolio"
-    url        = "portfolio/"
+    url        = "./portfolio/"
 
   [[menu.main]]
     identifier = "cv"
