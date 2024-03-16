@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      width: 60%;
+      margin: 0 auto; /* Centrar el contenedor en la página */
+      margin-top: 20px;
+    }
+    .content {
+      display: flex;
+      margin-bottom: 20px; /* Espacio entre cada conjunto de texto e imagen */
+    }
+    .content_text {
+      flex: 1; /* Que ocupe el espacio restante */
+      position: relative; /* Posición relativa para el contenido */
+    }
+    
+    .date {
+      position: absolute; /* Posición absoluta para la fecha */
+      right: 0; /* A la derecha del contenedor */
+      font-size: 14px; /* Tamaño de fuente */
+      line-height: 24px; /* Alinea verticalmente con el texto */
+      color: #b4b3b3;
+      font-weight: normal;
+    }
+    img {
+      margin-left: 20px;
+      max-width: 100%; /* Limitar el ancho máximo de las imágenes */
+      height: auto;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="content">
+      <div class="content_text">
+        <h3>Markdown Syntax Guide<span class="date">Mar 11, 2019</span></h3>
+        
+        <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+      </div>
+      <img src="https://via.placeholder.com/100" alt="Image 1">
+    </div>
+
+    <div class="content">
+      <div class="content_text">
+        <h3>Rich Content <span class="date">Mar 11, 2019</span></h3>
+        <p>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
+      </div>
+      <img src="https://via.placeholder.com/100" alt="Image 2">
+    </div>
+  
+    <div class="content">
+      <div class="content_text">
+        <h3>Placeholder Text<span class="date">Mar 11, 2019</span></h3>
+        <p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>
+      </div>
+      <img src="https://via.placeholder.com/100" alt="Image 3">
+    </div>
+
+  </div>
+
+</body>
+
+</html>
+
+
