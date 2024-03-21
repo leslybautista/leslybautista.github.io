@@ -19,21 +19,32 @@
       flex: 1; /* Que ocupe el espacio restante */
       position: relative; /* Posición relativa para el contenido */
     }
-    
-    .date {
-      position: absolute; /* Posición absoluta para la fecha */
-      right: 0; /* A la derecha del contenedor */
-      font-size: 14px; /* Tamaño de fuente */
-      line-height: 24px; /* Alinea verticalmente con el texto */
-      color: #b4b3b3;
-      font-weight: normal;
-    }
+
     img {
       margin-left: 20px;
       max-width: 100%; /* Limitar el ancho máximo de las imágenes */
       height: auto;
     }
-
+    
+    .hyperlink-container {
+      display: inline-block;
+      background-color: #1a1a1a; /* Dark background for contrast */
+      padding: 10px; /* Some padding around the link */
+      border-radius: 5px; /* Rounded corners for the container */
+    }
+  
+    .beautiful-link {
+      text-decoration: none; /* Removes the underline from the link */
+      font-size: 20px; /* Adjusts the size of the link text */
+      color: #E0A2F3; /* Initial color of the link */
+      font-family: Arial, sans-serif; /* Font style for the link */
+      transition: color 0.3s ease; /* Smooth transition for color change */
+    }
+  
+    .beautiful-link:hover {
+      color: #ffffff; /* Color of the link when hovered over */
+      cursor: pointer; /* Changes the cursor to indicate a clickable link */
+    }
   </style>
 </head>
 
@@ -43,7 +54,7 @@
     <a href="https://ee-leslyarcelly213.projects.earthengine.app/view/cloudapp#run=true;sensor=Sentinel-2%20SR;lon=-76.39138073674154;lat=-12.316563873945507;rgb=SWIR1%2FNIR%2FGREEN;initYear=2018;initMonth=8;initDay=12;cloud=30;chipwidth=2;imgid=20190212T142031_20190212T143214_T19FDF;llb1=-1;ulb1=1;llndvi=-1;ulndvi=1;llb11=-1;ulb11=1;"> 
     <div class="content">
       <div class="content_text">
-        <h3>CloudApp<span class="date">Mar 11, 2019</span></h3>                   
+        <h3>CloudApp</h3>                   
         <p>This repository contains the Javascript code to build the CloudApp Earth Engine App. Click here to display our live demo.</p>
       </div>
       <img src="https://via.placeholder.com/100" alt="Image 1">
@@ -52,7 +63,7 @@
 
     <div class="content">
       <div class="content_text">
-        <h3>Rich Content <span class="date">Mar 11, 2019</span></h3>
+        <h3>Rich Content</h3>
         <p>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
       </div>
       <img src="https://via.placeholder.com/100" alt="Image 2">
@@ -60,7 +71,7 @@
   
     <div class="content">
       <div class="content_text">
-        <h3>Placeholder Text<span class="date">Mar 11, 2019</span></h3>
+        <h3>Placeholder Text</h3>
         <p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>
       </div>
       <img src="https://via.placeholder.com/100" alt="Image 3">
